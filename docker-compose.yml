@@ -257,6 +257,7 @@ volumes:
   redis:
     external: false
 
+# create a external network using: docker network inspect promply_net
 networks:
   promply_net:
     external: true
